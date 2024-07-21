@@ -124,4 +124,6 @@ a:hover {
 
 .social li {
     font-size: 1.5em;
+    display: flex;
+    align-items: center;
 }
