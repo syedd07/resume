@@ -3,58 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style>
-        /* CSS Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 32px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            border: none;
-            border-radius: 25px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            background-color: #b5ed71;
-            color: white;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            cursor: pointer;
-        }
-
-        .button:hover {
-            background-color: #8abf3a;
-            transform: scale(1.05);
-        }
-    </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
-    <link rel="android-chrome-192x192" type="image/png" sizes="192x192" href="/icon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-    <link rel="manifest" href="/icon/site.webmanifest">
+    <title>Resume - Syed Yusuf Ali</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="vista-create-share" data-vista-create-id="65e71a6e2f72538545db9e4a"></div>
-    <script type="text/javascript" src="https://static.create.vista.com/js/embedded_v1.min.js?v=1.370.9" async></script>
-    <a href="https://github.com/syedd07/resume/blob/337490c4605e76ad6734e89863a4b63c0a632d67/Resume%2021x29.7%20cm.pdf" download>
-        <button class="button">
-            Download Resume
-        </button>
-    </a>
+    <div class="container">
+        <header>
+            <h1>Syed Yusuf Ali</h1>
+            <p>I'm a mechanical engineering student who's pretty handy with front-end development, SEO tricks, and whipping up engaging articles. I'm on the lookout for cool opportunities where I can blend my tech skills with some creative flair.</p>
+        </header>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Phone: +91 8722265292</p>
+            <p>Email: <a href="mailto:syedyusufali6626@gmail.com">syedyusufali6626@gmail.com</a></p>
+            <p>Location: Whitefield, Bengaluru</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Al-Sharay +1 & +2 (2020-2022)</li>
+                <li>MVJ College Of Engineering, Mechanical Engineering (2022-Present)</li>
+            </ul>
+        </section>
+        <section class="experience">
+            <h2>Freelance Work Experience</h2>
+            <ul>
+                <li>Freelance SEO Writer (Jan 2023 - Present)</li>
+                <li>Freelance Wordpress Developer (2022-2023)</li>
+                <li>Freelance Web Developer (2023 - Present)</li>
+            </ul>
+            <p>Platforms: Freelancer.com, Upwork, Fiverr, Internshala</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>SEO, Article writing</li>
+                <li>Wordpress Development</li>
+                <li>Front-End Development</li>
+                <li>Communication Skills</li>
+            </ul>
+        </section>
+        <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+            </ul>
+        </section>
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <p>Certification on End-Front Development - Coursera</p>
+        </section>
+        <section class="social">
+            <h2>Social Profiles</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/syedd07">Instagram</a></li>
+                <li><a href="https://www.facebook.com/syedd07">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/syedd07">LinkedIn</a></li>
+                <li><a href="https://www.github.com/syedd07">GitHub</a></li>
+                <li><a href="https://www.sydali.me">Website</a></li>
+            </ul>
+        </section>
+        <div class="download">
+            <a href="https://github.com/syedd07/resume/blob/337490c4605e76ad6734e89863a4b63c0a632d67/Resume%2021x29.7%20cm.pdf" download>
+                <button class="download-button">Download Resume</button>
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
