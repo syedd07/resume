@@ -7,7 +7,7 @@
 body {
     font-family: 'Times New Roman', serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #61a1cc;
     color: #333;
     padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background: #e7e6e6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,12 +28,12 @@ header {
 
 header h1 {
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #1f2933;
     font-size: 2.5em;
 }
 
 header p {
-    color: #7f8c8d;
+    color: #525c5c;
     font-size: 1.2em;
 }
 
@@ -43,7 +43,7 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    color: #2980b9;
+    color: #3483b8;
     font-size: 1.5em;
     border-bottom: 2px solid #2980b9;
     padding-bottom: 5px;
@@ -66,52 +66,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-.download {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.download-button {
-    display: inline-block;
-    padding: 15px 32px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    border-radius: 25px;
-    background-color: #2980b9;
-    color: white;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.download-button:hover {
-    background-color: #3498db;
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.download-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300%;
-    height: 300%;
-    background-color: rgba(255, 255, 255, 0.15);
-    transform: translate(-50%, -50%) rotate(45deg);
-    transition: width 0.5s ease, height 0.5s ease;
-}
-
-.download-button:hover::before {
-    width: 0;
-    height: 0;
-}
-
 .contact i, .social i {
     margin-right: 10px;
     color: #2980b9;
